@@ -1,0 +1,830 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'poppins';
+}
+
+
+body {   
+    background: #98dab2;
+}
+
+.static-bar {
+    width: 100%;
+    height: 5.3125rem;
+    position: fixed;
+    top: .625rem;
+}
+
+.app-body {
+    height: 6.25rem;
+    width: 100%;
+    background: rgb(31, 148, 31);
+}
+
+.app-frame {
+    position: absolute;
+    height: 63.9375rem;
+    width: 71.875rem;
+    top: 1.5625rem;
+    left: 1.5625rem;
+    border-radius: .9375rem;
+    margin: auto;
+    align-items: center;
+}
+
+.app-frame-one {
+    position: absolute;
+    width: 37.125rem;
+    height: 70.25rem;
+    background: #fff;
+    border-radius: .9375rem;
+}
+
+
+.app-frame-two {
+    background-image: linear-gradient(rgba(93, 182, 182, 0.45), rgba(80, 153, 153, 0.45)), url(/image/2.jpg);
+    position: absolute;
+    border-radius: .9375rem;
+    height: 70.25rem;
+    width: 57.625rem;
+    left: 33.0625rem;
+    top: 0rem;
+}
+
+
+.top-area1 {
+    justify-content: space-between;
+    background: #F0F2F5;
+    align-items: center;
+    position: absolute;
+    padding: .125rem .9375rem;
+    display: flex;
+    width: 34.375rem;
+    top: -0.625rem;
+    height: 5.25rem;
+}
+
+
+.top-area2 {
+    justify-content: space-between;
+    border-left: 1px solid rgb(228, 220, 220);
+    background: #F0F2F5;
+    align-items: center;
+    position: absolute;
+    padding: .125rem .9375rem;
+    display: flex;
+    width: 55.8125rem;
+    height: 5.25rem;
+    right: 3.125rem;
+    top: -0.625rem;
+}
+
+.top-area1 ul {
+    padding-right: 1.75rem;
+}
+
+.top-area1 ul a {
+    padding: .625rem 1.25rem;
+}
+
+.top-area2 a {
+    text-decoration: none;
+}
+
+ul {
+    position: relative;
+    right: 1.875rem;
+}
+
+.daniel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+
+.daniel img{
+    border: .1rem solid green;
+    border-radius: 100%;
+}
+
+
+.daniel p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    letter-spacing: -0.025em;
+    color: #6B7C85;
+}
+
+.all-divs {
+    position: relative;
+    top: .9375rem;
+}
+
+
+.areas:hover {
+    background: #c6f1e7;
+    transition: .2s;
+}
+
+.areas {
+    padding-left: .625rem;
+}
+
+.areasdiv h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.areasdiv img {
+    padding-left: .3125rem;
+}
+
+
+.area-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+    align-items: center;
+    position: absolute;
+    left: 1.25rem;
+    top: 5rem;
+    width: 28.75rem;
+    height: 4.0625rem;
+    gap: 1.625rem;
+    background: rgb(244, 245, 241);
+}
+
+
+::placeholder {
+    position: absolute;
+    left: .75rem;
+    width: 200px;
+    height: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.025em;
+    color: #6B7C85;
+    padding: 10px;
+}
+
+.area-one input {
+    position: absolute;
+    outline: none;
+    padding: 10px;
+    width: 170px;
+    border: none;
+    background: rgb(244, 245, 241);
+}
+
+
+.area-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 177px;
+}
+
+.area-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 263px;
+}
+
+.area-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 360px;
+}
+
+.area-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 456px;
+}
+
+.area-six {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 543px;
+}
+
+.area-seven {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 639px;
+}
+
+.area-eight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 735px;
+}
+
+.area-nine {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 20px;
+    top: 831px;
+}
+
+.area-ten {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 31.25rem;
+    height: 4.0625rem;
+    left: 1.25rem;
+    top: 57.9375rem;
+}
+
+.area-eleven {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    background: rgb(244, 245, 241);
+    position: absolute;
+    width: 31.25rem;
+    height: 4.0625rem;
+    left: 1.25rem;
+    top: 64.3125rem;
+}
+
+.line1 {
+    position: absolute;
+    width: 37.125rem;
+    height: 0rem;
+    left: 0rem;
+    top: 9.8125rem;
+    border: .0625rem solid #E9EDEF
+}
+
+.line2 {
+    position: absolute;
+    width: 30.0625rem;
+    height: 0rem;
+    left: 1.875rem;
+    top: 15.25rem;
+    border: .0625rem solid #E9EDEF
+}
+
+.line3 {
+    position: absolute;
+    width: 30.0625rem;
+    height: 0rem;
+    left: 1.875rem;
+    top: 21.25rem;
+    border: .0625rem solid #E9EDEF;
+}
+
+.line4 {
+    position: absolute;
+    width: 30.0625rem;
+    height: 0rem;
+    left: 1.875rem;
+    top: 27.25rem;
+    border: .0625rem solid #E9EDEF;
+}
+
+.line5 {
+    position: absolute;
+    width: 30.0625rem;
+    height: 0rem;
+    left: 1.875rem;
+    top: 21.25rem;
+    border: .0625rem solid #E9EDEF;
+}
+
+.line6 {
+    position: absolute;
+    width: 481px;
+    height: 0px;
+    left: 30px;
+    top: 619px;
+    border: 1px solid #E9EDEF;
+}
+
+.line7 {
+    position: absolute;
+    width: 481px;
+    height: 0px;
+    left: 30px;
+    top: 715px;
+    border: 1px solid #E9EDEF;
+}
+
+.line8 {
+    position: absolute;
+    width: 481px;
+    height: 0px;
+    left: 30px;
+    top: 811px;
+    border: 1px solid #E9EDEF;
+}
+
+.line9 {
+    position: absolute;
+    width: 481px;
+    height: 0px;
+    left: 30px;
+    top: 831px;
+    border: 1px solid #E9EDEF;
+}
+
+.line10 {
+    position: absolute;
+    width: 481px;
+    height: 0px;
+    left: 30px;
+    top: 1003px;
+    border: 1px solid #E9EDEF;
+}
+
+.line11 {
+    position: absolute;
+    width: 30.0625rem;
+    height: 0rem;
+    left: 1.875rem;
+    border: .0625rem solid #E9EDEF;
+}
+
+.area6div img,
+.area7div img,
+.area9div img {
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 100%;
+    border: .25rem solid white;
+}
+
+.area11div img {
+    left: -0.125rem;
+    border: .1875rem solid red;
+}
+
+.area11div div {
+    position: relative;
+    left: .625rem;
+}
+
+.area-imag,
+.frams {
+    position: relative;
+    right: .625rem;
+}
+
+
+
+
+/* -----------------Editing Zones----------------------- */
+
+.area-two,
+.area-three,
+.area-four,
+.area-five,
+.area-six,
+.area-seven,
+.area-eight,
+.area-nine,
+.area-ten,
+.area-eleven {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+
+/* ------------------B---------------------- */
+
+.area2div,
+.area3div,
+.area4div,
+.area5div,
+.area6div,
+.area7div,
+.area8div,
+.area9div,
+.area10div,
+.area11div {
+    display: flex;
+    align-items: center;
+    padding-left: 9px;
+}
+
+
+
+/* -------------------C--------------------- */
+
+.area2div p,
+.area3div h3,
+p,
+.area4div h3,
+p,
+.area5div h3,
+p,
+.area6div p,
+.area7div p,
+.area8div h3,
+p,
+.area9div h3,
+p,
+.area10div h3,
+p,
+.area11div h3,
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+/* ---------------------D------------------- */
+
+
+.area2div1,
+.area6div1,
+.area7div1,
+.area9div1,
+.area11div1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    right: 1.25rem;
+}
+
+.area3div1 p,
+.area4div1 p,
+.area5div1 p,
+.area6div1 p,
+.area7div1 p,
+.area8div1 p,
+.area9div1 p,
+.area10div1 p,
+.area11div1 p {
+    position: relative;
+    padding-right: 1.125rem;
+}
+
+
+
+/* ----------------------E------------------ */
+
+.area2div1 div,
+.area6div1 div,
+.area7div1 div,
+.area9div1 div,
+.area11div1 div {
+    background: rgb(95, 221, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .1875rem .1875rem;
+    font-size: .6875rem;
+    height: .9375rem;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    width: .9375rem;
+    font-weight: 400;
+    border-radius: 100%;
+}
+
+
+.app-frame-area {
+    position: absolute;
+    margin-left: 1.75rem;
+    padding: .625rem 1.5625rem 2.8125rem .3125rem;
+    box-sizing: border-box;
+}
+
+.p-two {
+    color: #6B7C85;
+    position: absolute;
+    bottom: auto;
+    right: 18px;
+    line-height: 10px;
+}
+
+.app-frame-area p {
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.app-frame-area small {
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.app-frame-2 {
+    border-radius: 0 10px 10px 10px;
+    background: #fff;
+    color: #6B7C85;
+    margin-top: 15px;
+    height: 30px;
+    width: 200px;
+    width: 250px;
+    top: 70px;
+}
+
+.app-frame-3 {
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    margin-top: 15px;
+    color: #6B7C85;
+    height: 30px;
+    width: 300px;
+    top: 130px;
+}
+
+.app-frame-4 {
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    margin-top: 15px;
+    color: #6B7C85;
+    height: 30px;
+    width: 180px;
+    top: 190px;
+}
+
+.app-frame-5 {
+    border-radius: 10px 10px 10px 10px;
+    background: rgb(15, 250, 15);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px;
+    color: #000000;
+    height: 30px;
+    left: 345px;
+    width: 535px;
+    top: 250px;
+}
+
+.app-frame-6 {
+    border-radius: 10px 10px 10px 10px;
+    background: rgb(15, 250, 15);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px;
+    color: #000000;
+    height: 30px;
+    width: 360px;
+    left: 520px;
+    top: 240px;
+}
+
+.app-frame-7 {
+    border-radius: 10px 10px 10px 10px;
+    background: rgb(15, 250, 15);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px;
+    color: #000000;
+    height: 30px;
+    width: 250px;
+    left: 630px;
+    top: 230px;
+}
+
+.app-frame-8 {
+    border-radius: 10px 10px 10px 10px;
+    border-radius: 0 10px 10px 10px;
+    position: relative;
+    background: #fff;
+    margin-top: 15px;
+    color: #6B7C85;
+    height: 30px;
+    width: 340px;
+    top: 220px;
+}
+
+#food {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    top: 200px;
+}
+
+
+.app-frame-9 {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: #fff;
+    margin-top: 15px;
+    color: #6B7C85;
+    height: 30px;
+    width: 470px;
+    top: 210px;
+}
+
+
+.app-frame-10 {
+    position: relative;
+    width: 650px;
+    height: 100px;
+    top: 10px;
+    left: 30px;
+}
+
+
+
+.app-frame-11 {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: #fff;
+    margin-top: 15px;
+    color: #6B7C85;
+    height: 30px;
+    width: 470px;
+    top: 265px;
+}
+
+
+.app-frame-12 {
+    border-radius: 10px 10px 10px 10px;
+    background: rgb(15, 250, 15);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px;
+    color: #000000;
+    height: 30px;
+    width: 500px;
+    left: 380px;
+    top: 278px;
+}
+
+.app-frame-13 {
+    border-radius: 10px 10px 10px 10px;
+    background: rgb(15, 250, 15);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px;
+    color: #000000;
+    height: 30px;
+    width: 550px;
+    left: 330px;
+    top: 269px;
+}
+
+.app-frame-14 {
+    border-radius: 10px 10px 10px 10px;
+    background: rgb(15, 250, 15);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 15px;
+    color: #000000;
+    height: 30px;
+    width: 550px;
+    left: 330px;
+    top: 260px;
+}
+
+
+.app-frame-15 {
+    border-radius: 0px;
+    background: #F0F2F5;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 57.59rem;
+    margin: auto;
+    bottom: .0625rem;
+}
+
+.input-elemnt {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 80%;
+}
+
+.input-elemnt .attach {
+    position: relative;
+    left: 1.25rem;
+}
+
+.last_input {
+    position: relative;
+    left: 2.95rem;
+    height: 2.5rem;
+    width: 43.25rem;
+    border-radius: .625rem;
+    border: none;
+    outline: none;
+    padding-left: 4.9375rem;
+}
+
+.p-divs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p-divs
+.attch,
+.attche {
+    cursor: pointer;
+}
+
+
+
+.first_input {
+    position: relative;
+    right: .9975rem;
+    display: flex;
+    align-items: center;
+}
+
+.first_input a {
+    position: relative;
+    right: 44.0rem;
+}
+
+::placeholder {
+    position: relative;
+    right: 1.9rem;
+}
+
+
+
+.frams {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
